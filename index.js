@@ -25,7 +25,7 @@ if(xpDoHeroi <= 1000){
 }else if(xpDoHeroi >= 10001 && xpDoHeroi <= 20000){
     xpDoHeroi = "Radiante"
 
-}else if(xpDoHeroi == 50000)
+}else if(xpDoHeroi <= 50000)
      xpDoHeroi = "Celestial"
     
 console.log("o Herói de nome " + nomeDoHeroi + " está no nível de " + xpDoHeroi)
